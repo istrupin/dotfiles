@@ -184,3 +184,4 @@ source ~/.bash-git-prompt/gitprompt.sh
 alias gs='git status'
 alias gf='git fetch'
 alias gcc='git checkout -'
+alias ga='git add --all'
