@@ -1,0 +1,8 @@
+// Place your key bindings in this file to override the defaults
+[
+      {
+        "key": "alt+h",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+     }
+]

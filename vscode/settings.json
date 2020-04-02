@@ -1,0 +1,30 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Victor Mono",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.jediEnabled": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "window.enableMenuBarMnemonics": false,
+    "vim.easymotion": true,
+    // "vim.overrideCopy": true,
+    "vim.timeout":5000,
+    "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-k>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-t>": false,
+    "<C-p>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>","o"],
+      "after": ["o", "<Esc>", "k"]
+    },
+    {
+        "before": [ "<leader>", "O" ],
+        "after": ["O", "<Esc>", "j"]
+      }
+  ],
+}
