@@ -7,15 +7,22 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "window.enableMenuBarMnemonics": false,
     "vim.easymotion": true,
-    // "vim.overrideCopy": true,
     "vim.timeout":5000,
+    "vim.useSystemClipboard": true,
+    // "vim.useCtrlKeys": false,
+    "vim.leader": "<space>",
+    "vim.highlightedyank.enable" : true,
+    "vim.overrideCopy": true,
+    // "vim.hlsearch": true,
     "vim.handleKeys": {
     "<C-a>": false,
     "<C-k>": false,
     "<C-c>": false,
     "<C-v>": false,
     "<C-t>": false,
-    "<C-p>": false
+    "<C-p>": false,
+    "<C-y>": false,
+    "<C-z>": false
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -25,6 +32,11 @@
     {
         "before": [ "<leader>", "O" ],
         "after": ["O", "<Esc>", "j"]
-      }
-  ],
+    },
+    {
+      "before": ["Y"],
+      "after": ["y","$"]
+    },
+  ]
+
 }

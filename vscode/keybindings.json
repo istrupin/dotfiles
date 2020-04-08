@@ -3,6 +3,6 @@
       {
         "key": "alt+h",
         "command": "extension.vim_escape",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+        "when": "editorTextFocus && vim.active"
      }
 ]
